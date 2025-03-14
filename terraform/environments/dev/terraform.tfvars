@@ -1,0 +1,16 @@
+env = "dev"
+access_key = "ASIAS6J7P6Q2MSMDYCFZ"
+secret_key = "mAQmdlaJkNezpF3ihIz3kP48+TNjXPFx81U6b+ns"
+region = "us-east-1"
+eks_name = "apache-kafka"
+eks_version = "1.31"
+vpc_cidr = "10.0.0.0/16"
+private_subnet_cidrs = ["10.0.0.0/19", "10.0.32.0/19"]
+public_subnet_cidrs = ["10.0.64.0/19", "10.0.96.0/19"]
+availability_zones = ["us-east-1a", "us-east-1b"]
+ecr_repositories = ["spring-apache-kafka-producer", "spring-apache-kafka-consumer"]
+bucket_name = "apache-kafka-terraform-state"
+lock_table_name = "apache-kafka-terraform-locks"
+owner = "ion.mamaliga"
+discipline = "development"
+purpose = "study"
